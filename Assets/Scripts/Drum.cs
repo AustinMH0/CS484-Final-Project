@@ -9,14 +9,19 @@ public class Drum : MonoBehaviour {
     Material unlitMaterial;
     Renderer r;
 
+    private AudioSource audioSource;
+
     void Start() {
         r = GetComponent<Renderer>();
         unlitMaterial = r.material;
+        audioSource = GetComponent<AudioSource>();
     }
 
 
     void OnTriggerEnter(Collider other) {
         // play sound
+        audioSource.Play();
+        Debug.Log(audioSource.clip.name);
         wasHit = true;
     }
 
