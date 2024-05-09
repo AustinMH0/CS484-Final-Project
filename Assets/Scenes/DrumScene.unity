@@ -872,8 +872,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
-=======
 --- !u!1001 &1040653536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -972,7 +970,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> drum-model
 --- !u!4 &1234979221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 876023024058398095, guid: 1a3eb4c1bbdf5764e9b5ac2a5644629a, type: 3}
@@ -1750,9 +1747,5 @@ SceneRoots:
   - {fileID: 1249617921}
   - {fileID: 363626208}
   - {fileID: 5744321472622584506}
-<<<<<<< HEAD
-  - {fileID: 108524931}
-=======
   - {fileID: 1040653536}
   - {fileID: 1217198762}
->>>>>>> drum-model
