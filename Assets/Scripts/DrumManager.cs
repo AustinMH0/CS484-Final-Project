@@ -31,6 +31,9 @@ public class DrumManager : MonoBehaviour {
     }
 
     void Update() {
+        foreach (Drum drum in drums) {
+            drum.SetLitStatus(false);
+        }
         if (GetDrum().wasHit) {
             GetDrum().SetLitStatus(false);
             i += 1;
@@ -53,7 +56,7 @@ public class DrumManager : MonoBehaviour {
             nPattern = patterns.Length - 1;
         }
         if (nPattern >= patterns.Length) {
-            nPattern += 1;
+            nPattern = 0;
         }
         patternText.text = patterns[nPattern].name;
     }

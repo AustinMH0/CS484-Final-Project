@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18306595, g: 0.2287429, b: 0.3066922, a: 1}
+  m_IndirectSpecularColor: {r: 0.18306574, g: 0.22874251, b: 0.30669183, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -470,10 +470,14 @@ MonoBehaviour:
   - {fileID: 7654178172578295468}
   - {fileID: 991893912}
   patterns:
-  - name: Simple A
-    drumOrder: 00000000010000000200000003000000
-  - name: Simple B
-    drumOrder: 00000000010000000000000001000000
+  - name: Basic
+    drumOrder: 0000000001000000
+  - name: Normal A
+    drumOrder: 02000000020000000000000001000000
+  - name: Normal B
+    drumOrder: 000000000100000000000000010000000200000003000000
+  - name: Advanced
+    drumOrder: 0300000001000000000000000200000003000000010000000200000003000000010000000100000000000000
 --- !u!4 &363626208
 Transform:
   m_ObjectHideFlags: 0
